@@ -315,7 +315,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     margin: auto;
 }
 
@@ -353,7 +353,7 @@ p {
         display: flex;
         flex-wrap: wrap;
         margin: auto;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     
     .sec-three-h3 {
@@ -371,7 +371,6 @@ p {
         display: flex;
         flex-direction: column;
         margin: auto;
-        margin-bottom: 30px;
     }
     .sec-three-review-container {
         width: 100%;
@@ -435,8 +434,7 @@ p {
 
 footer {
     background-color:#004047;
-    align-items: center;
-    height: 190px;
+    
 }
 
 .footer-button {
@@ -446,27 +444,36 @@ footer {
     font-family: Livvic;
     font-weight: 700;
     font-size: 18px;
+
 }
 
 .footer-button-container {
     display: flex;
     flex-direction: row; 
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    padding-top: 20px;
     
 }
 
-.footer-list-container {
-    color: white;
-    font-family: livvic;
-    font-weight: 700;
+.footer-nav-buttons {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
 }
-
-
 
 .footer-icon-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 50%;
+    text-align: center;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -493,14 +500,15 @@ footer {
     display: flex;
     flex-direction: column;
     width: 80%;
+    height: 100px;
     margin: auto;
     text-align: center;
 }
 
-.myteam-footer-icon {
+.footer-icon-container {
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+
 }
 }
 
@@ -511,16 +519,19 @@ footer {
 
 header {    
     background-color:#014E56;
-    height: 517px;
+    height: max-content;
+    padding-bottom: 100px;
 }
 
 .about-header-text {
     color: white;
+    height: max-content;
+    width: 90%;
     display: flex;
-    height: 156px;
-    width: 77%;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto;
+    margin-top: 30px;
 
 
 }
@@ -548,9 +559,10 @@ header {
 }
 
 .meet-directors-container {
-    width: 1110px; 
-    height: 722px;
+    width: 80%; 
+    height: auto;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .about-h3 {
@@ -561,6 +573,7 @@ header {
 
 .directors-container {
     height:max-content;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -600,9 +613,115 @@ h6 {
     font-family: livvic;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: -1         0px;
+    margin-top: 10px;
 }
 
+/* <!!!!! Tablet Size Media Queries Start Here !!!!> */
+
+
+@media screen and (max-width: 992px) {
+    header {    
+        background-color:#014E56;
+        height: max-content;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-header-text {
+        color: white;
+        height: max-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-top: 30px;
+    
+    
+    }
+    
+    .about-h1-container {
+        font-family: livvic;
+        font-size: 32px;
+        margin: auto;
+    }
+    
+    .header-h1 {
+        text-align: center;
+    }
+    .about-header-p-container {
+        margin: auto;
+    
+    }
+    
+    .about-section-one {
+        background-color:#004047;
+        color: white;
+        margin-top: -50px;
+        height: fit-content;
+        padding-bottom:100px;
+    }
+    
+    .meet-directors-container {
+        width: 95%; 
+        height: 722px;
+        margin: auto;
+    }
+    
+    .about-h3 {
+        text-align: center;
+        padding-bottom:32px;
+        padding-top: 30px;
+        margin: auto;
+    }
+    
+    .directors-container {
+        height:max-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: auto;
+     
+    }
+    
+    .directors-text-container {
+        height:250px;
+        width: 350px;
+        background-color:#012F34;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .directors-img {
+        border-radius: 50%;
+        height: 96px;
+        border-style: solid;
+        border-color: #c4fffe;
+    }
+    
+    .about-hidden-p {
+        display: none;
+    }
+    .plus-sign {
+        background-color: #F67E7E;
+        padding: 15px;
+        border-radius: 50%;
+    }
+    
+    h6 {
+        color: #79c8c7;
+        font-family: livvic;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    
+    
+}
 /* End of Directors Section Styling */
 
 /* Clients Section Styling */
