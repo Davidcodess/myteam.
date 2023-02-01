@@ -1,0 +1,738 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500&display=swap');
+
+/* Section one styling */
+
+.home-section-one {
+    background: #014E56;
+    width: 100%;
+    height: max-content;
+    padding-bottom: 30px;
+}
+
+nav {
+    width: 90%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.left-nav-buttons {
+    width:50%;
+    height: 40px;
+    font-family:Livvic;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    color: white;
+    margin: auto;
+}
+
+.right-nav-button {
+    height: 40px;
+    font-family:Livvic;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    color: white;
+    margin: auto;
+}
+
+
+a {
+    font-family: livvic;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F67E7E;
+}
+
+.nav-button {
+    border-style: none;
+    background-color: #014E56;
+    color: white;
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.logo-img {
+    color: white;
+}
+
+.circle-one-container {
+    width: 10%;
+}
+
+.circle-one {
+    width: 168px;
+    transform: rotate(180deg);
+}
+
+.circle-two-container {
+    width: 100%;
+    height: 150px;
+}
+.circle-two {
+    transform: rotate(180deg);
+    float: right;
+    padding-top: 20px;
+}
+
+.top-main-container {
+    width:100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+
+} 
+
+.sec-one-textbox {
+    margin: auto;
+    width:1110px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    text-align:left;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Talent-textbox-one {
+    color: white;
+    font-size: 70px;
+    font-family: Livvic;
+    width: 635px;
+    font-weight: bold;
+    margin-right: -50px;
+}
+
+b {
+    color:#F67E7E;
+}
+.talent-textbox-two {
+    color: white;
+    font-family: 'Livvic';
+    width: 445px;
+    text-align: start;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 50px;
+    height: 5px;
+    background: #F67E7E;
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+
+    .home-section-one {
+        background: #014E56;
+        width: 100%;
+        height: max-content;
+    }
+    
+    nav {
+        width: 85%;
+        height: 58px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 30px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    
+    a {
+        font-family: livvic;
+        color: white;
+        border-style: none;
+    }
+
+    .nav-button {
+        border-style: none;
+        background-color: #014E56;
+        color: white;
+        font-family: Livvic;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .contact-button {
+        width: fit-content;
+        float: right;
+        background-color: #014E56;
+        color: white;
+        font-family: Livvic;
+        font-weight: 700;
+        font-size: 18px;
+        border-style: hidden;
+    }
+
+    .logo-img {
+        color: white;
+    }
+
+    .circle-one-container {
+        height: 60px;
+    }
+
+    .top-main-container {
+        width:100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    
+    } 
+
+    .sec-one-textbox {
+        margin: auto;
+        width:70%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    
+    .Talent-textbox-one {
+        color: white;
+        font-size: 45px;
+        font-family: Livvic;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+    .talent-textbox-two {
+        color: white;
+        font-family: 'Livvic';
+        text-align: start;
+        font-weight: 700;
+    }
+    
+}
+    
+/* End of Section one styling */
+
+/* Section two styling */
+
+.home-section-two {
+    background-color:#012F34;
+    height: max-content;
+    padding-bottom: 90px;
+
+}
+
+.sec-two-textbox {
+    width: 90%;
+    height: max-content;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.sec-two-icon {
+    float: left;
+    margin-right: 5px;
+}
+.build-textbox-one {
+    height: 144px;
+    width: 445px;
+    align-self: flex-start;
+    float: left;
+    vertical-align: top;
+    
+
+}
+
+h3 {
+    font-size: 48px;
+    font-family: Livvic;
+   
+}
+
+.build-textbox-two {
+    width: 540px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;    
+    vertical-align: top;
+    float: right;
+}
+
+h5 {
+    color: #F67E7E;
+    font-weight: 800;
+    font-size: 19px;
+    font-family: 'livvic';
+}
+
+.sec-two-paragraph {
+    margin-left: 90px;
+}
+p { 
+    font-size:18px;
+    font-family: livvic;
+    font-weight: 700;
+    width:100%;
+}
+
+/* End of section two styling */
+
+.home-section-three {
+    height: max-content;
+    background-color: #004047;
+    margin-top: -50px;
+    font-family: livvic;
+}
+
+.sec-three-h3 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sec-three-main-text-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.sec-three-review-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    width: 25%;
+    height: max-content;
+    margin:auto;
+}
+
+.sec-three-text-container {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.success-story-img {
+    border-radius: 50%;
+    height: 70px;
+    
+}
+
+@media screen and (max-width:992px) {
+    .home-section-three {
+        height: max-content;
+        background-color: #004047;
+        margin-top: -50px;
+        font-family: livvic;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding-bottom: 100px;
+    }
+    
+    .sec-three-h3 {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .sec-three-main-text-container {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .sec-three-review-container {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-around;
+    
+    }
+    
+    .sec-three-text-container {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 15px;
+        width: 70%;
+    }
+    
+    .success-story-img {
+        border-radius: 50%;
+        height: 70px;
+        
+    }
+
+
+}
+    
+.section-four {
+    height: auto;
+    width: 100%;
+    background-color: #F67E7E;
+    padding-bottom: 30px;
+}
+
+.section-four-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin:auto;
+}
+
+.section-four-h3 {
+    align-content: center;
+    font-size: 46px;
+}
+.contact-button-section-four {
+    background-color: #F67E7E;
+    color: black;
+    font-size: 18px;
+    font-family: livvic;
+    font-weight:700 ;
+    border-style: solid;
+    border-radius: 28px;
+    border-width: 5px;
+    border-color: #012F34;
+    padding: 10px;
+    width:150px ;
+    margin: auto;
+}
+
+footer {
+    background-color:#004047;
+    align-items: center;
+    height: 190px;
+}
+
+.footer-button {
+    border-style: none;
+    background-color: #004047;
+    color: white;
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-button-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    
+}
+
+.footer-list-container {
+    color: white;
+    font-family: livvic;
+    font-weight: 700;
+}
+
+
+
+.footer-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+
+ .section-four-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    margin:auto;
+}
+   
+
+footer {
+    background-color:#004047;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+}
+
+.footer-button-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.myteam-footer-icon {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+}
+
+
+
+
+/* About Section Styling */
+
+header {    
+    background-color:#014E56;
+    height: 517px;
+}
+
+.about-header-text {
+    color: white;
+    display: flex;
+    height: 156px;
+    width: 77%;
+    justify-content: space-evenly;
+    margin: auto;
+
+
+}
+
+.about-h1-container {
+    font-family: livvic;
+    font-size: 32px;
+    width: 40%;
+    margin: auto;
+}
+
+.about-header-p-container {
+    width: 60%;
+    margin: auto;
+    display: flex;   
+    flex-wrap: wrap;
+}
+
+.about-section-one {
+    background-color:#004047;
+    color: white;
+    margin-top: -50px;
+    height: fit-content;
+    padding-bottom:100px;
+}
+
+.meet-directors-container {
+    width: 1110px; 
+    height: 722px;
+    margin: auto;
+}
+
+.about-h3 {
+    text-align: center;
+    padding-bottom:64px;
+    padding-top: 30px;
+}
+
+.directors-container {
+    height:max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+ 
+}
+
+.directors-text-container {
+    height:250px;
+    width: 350px;
+    background-color:#012F34;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+.directors-img {
+    border-radius: 50%;
+    height: 96px;
+    border-style: solid;
+    border-color: #c4fffe;
+}
+
+.about-hidden-p {
+    display: none;
+}
+.plus-sign {
+    background-color: #F67E7E;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+h6 {
+    color: #79c8c7;
+    font-family: livvic;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -1         0px;
+}
+
+/* End of Directors Section Styling */
+
+/* Clients Section Styling */
+
+.clients-section {
+    background-color: #012F34;
+    color: white;
+    text-align: center;
+    height: 260px;
+    margin: auto;
+}
+
+.clients-container {
+    width: 1110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    margin: auto;
+}
+.clients-h3 {
+    width:920px;
+    height: 48px;
+    margin: auto;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+.client-logo {
+    width: 150px;
+    height: 100%;
+    margin: auto;
+}
+
+.about-contact-section {
+    background-color: #F67E7E;
+    height: 200px;
+    margin: auto;
+}
+
+
+/* Contact Styling */
+
+.about-body {
+    background-color: #014E56;
+}
+
+
+.contact-main-section {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+.contact-main-container {
+    width:77%;
+    height: 428px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contact-h1-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.contact-h1 {
+    font-size: 64px;
+    font-family: livvic;
+    color: white;
+    margin-bottom: -20px;
+}
+
+.contact-about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+}
+.contact-h3 {
+    color: #F67E7E;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+label {
+    background-color: #014E56;
+    border-style: hidden;
+    margin-bottom: 10px;
+    color: white;
+    font-family: livvic;
+
+}
+
+input {
+    height: 40px;
+    background-color: #014E56;
+    font-family: livvic;
+    color: white;
+    border-style: hidden;
+    border-bottom:1px solid white;
+    margin-bottom: 15px;
+
+}
+
+textarea {
+    height: 84px;
+    background-color: #014E56;
+    font-family: livvic;
+    border-style: hidden;
+    margin-bottom: 15px;
+}
