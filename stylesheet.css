@@ -19,7 +19,7 @@ nav {
     margin: auto;
 }
 
-.left-nav-buttons {
+.brand-name {
     height: 40px;
     font-family:Livvic;
     display: flex;
@@ -28,13 +28,17 @@ nav {
     color: white;
 }
 
+
+
 .right-nav-button {
-    height: 40px;
+    height: max-content;
     font-family:Livvic;
     display: flex;
     flex-direction: row; 
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     color: white;
+    margin-right: 10px;
 }
 
 
@@ -43,10 +47,29 @@ a {
     color: white;
     text-decoration: none;
     margin: auto;
+    padding: 3px;
 }
 
 a:hover {
     color: #F67E7E;
+}
+
+.hamburger-navbar {
+    position: absolute;
+    top: 45px;
+    right:25px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 25px;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .nav-button {
@@ -325,7 +348,6 @@ footer {
 
 .footer-nav-button {
     border-style: none;
-    background-color: #004047;
     color: white;
     font-family: Livvic;
     font-weight: 700;
@@ -865,7 +887,6 @@ Start of media queries
    
    .footer-nav-buttons {
        border-style: none;
-       background-color: #014E56;
        color: white;
        font-family: Livvic;
        font-weight: 700;
@@ -1025,7 +1046,7 @@ Start of media queries
  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
     .contact-h1 {
         font-size: 45px;
@@ -1041,5 +1062,41 @@ Start of media queries
         font-size: 15px;
         margin-left:10px;
         width: 60%;
+    }
+
+    .hamburger-navbar {
+        display: flex;
+
+    }
+
+    .right-nav-button {
+       display: flex;
+       flex-direction: column;
+       margin-top: 20px;
+       align-items: center;
+       width: 100%;
+       padding-bottom: 20px;
+       background-color: #F67E7E;
+       border-radius: 10px;
+
+    }
+
+
+    .nav-button {
+        padding: 10px;
+        height: fit-content;
+        background-color: #F67E7E;
+        font: 18px;
+    }
+
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .brand-name {
+        width:135px;
     }
 }
