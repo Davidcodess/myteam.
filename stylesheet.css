@@ -195,7 +195,6 @@ h3 {
 }
 
 .build-textbox-two {
-    width: 60%;
     height: max-content;
     display: flex;
     flex-direction: column;    
@@ -295,7 +294,7 @@ p {
 
 .section-four-text {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 80%;
     margin:auto;
@@ -318,8 +317,19 @@ p {
     border-width: 5px;
     border-color: #012F34;
     padding: 10px;
-    width:40% ;
+    width:150px ;
     margin: auto;
+    text-align: center;
+    transition-duration: 350ms;
+    transition-timing-function: ease-in-out;
+
+}
+
+.contact-button-section-four:hover {
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    color: white;
+    background-color: #014E56;
 }
 
 footer {
@@ -465,6 +475,7 @@ header {
     border-color: #c4fffe;
 }
 
+
 .about-hidden-logo-container {
     padding: 10px;
     margin: auto;
@@ -485,13 +496,29 @@ header {
     padding: 15px;
     border-radius: 50%;
     margin-bottom: 5px;
+    transform: rotate(90deg);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
 }
+
+.plus-sign-2 {
+    background-color:#c4fffe;
+    transform: rotate(-45deg);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.plus-sign-nikita:hover,.plus-sign-cristian:hover,.plus-sign-cristian:hover {
+    background-color: #c4fffe;
+}
+
 .plus-sign {
     background-color: #F67E7E;
     padding: 15px;
     border-radius: 50%;
     cursor: grab;
 }
+
 
 h6 {
     color: #79c8c7;
@@ -501,7 +528,6 @@ h6 {
     margin-bottom: 10px;
 }
 
-/* <!!!!! Tablet Size Media Queries Start Here !!!!> */
 
 /* End of Directors Section Styling */
 
@@ -524,6 +550,7 @@ h6 {
     padding-top: 30px;
     margin: auto;
 }
+
 .clients-h3 {
     width:75%;
     height: 48px;
@@ -557,7 +584,6 @@ h6 {
 .contact-main-section {
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     margin: auto;
     padding-bottom: 100px;
@@ -569,7 +595,7 @@ h6 {
     height: max-content;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction:column;
     flex-wrap: wrap;
     margin: auto;
 }
@@ -578,8 +604,8 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: left;
     margin-bottom: 50px;
+    margin: auto;
 }
 
 .contact-h1 {
@@ -587,6 +613,7 @@ h6 {
     font-family: livvic;
     color: white;
     margin-bottom: -20px;
+    text-align: center;
 }
 
 .contact-about-text {
@@ -597,6 +624,7 @@ h6 {
 }
 .contact-h3 {
     color: #F67E7E;
+    text-align: center;
 }
 
 .form-container {
@@ -605,6 +633,7 @@ h6 {
     justify-content: flex-end;
     width: 50%;
     margin-bottom: 50px;
+    margin: auto;
 }
 
 form {
@@ -728,14 +757,17 @@ Start of media queries
         font-family: Livvic;
         font-weight: bold;
         text-align: center;
+        width: 100%;
     }
 
 
     .talent-textbox-two {
         color: white;
         font-family: 'Livvic';
-        text-align: start;
+        text-align: left;
         font-weight: 700;
+        width: 90%;
+        margin: auto;
     }
     
     .home-section-two {

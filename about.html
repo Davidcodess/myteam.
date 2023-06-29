@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="stylesheet.css">
-  <title>Frontend Mentor | myteam website challenge - About</title>
+  <title>About Myteam</title>
 </head>
 <body>
 <header>
@@ -25,9 +25,9 @@
     </a>
 
     <div class="right-nav-button"> 
-      <button class="nav-button"> <a href="index.html"> home</a> </button>
-      <button class="nav-button"> <a href="about.html"> about</a> </button>
-      <button class="nav-button"> <a href="contact.html"> contact</a> </button>
+      <a class="nav-button" href="index.html"> home</a>
+      <a class="nav-button" href="about.html"> about</a>
+      <a class="nav-button" href="contact.html"> contact</a>
     </div>
    
   </nav>
@@ -202,7 +202,7 @@
   <div class="section-four-text">
     <h3 class="section-four-h3"> Ready to get started?</h3>
 
-    <button class="contact-button-section-four">contact us</button>
+    <a class="contact-button-section-four" href="contact.html">contact us</a>
   </div>
 </section>
 
@@ -215,9 +215,9 @@
 
     <div class="footer-nav-buttons">
   
-      <button class="footer-button"> <a href="index.html"> home</a> </button>
-      <button class="footer-button"> <a href="about.html"> about</a> </button>
-      <button class="footer-button"> <a href="contact.html"> contact </a> </button>
+      <a class="footer-button" href="index.html"> home</a>
+      <a class="footer-button" href="about.html"> about</a>
+      <a class="footer-button" href="contact.html"> contact </a>
     </div>
     
     
@@ -254,14 +254,17 @@
         .on("click", function() {
           
           // $(".directors-img").slideToggle();
+          $(".plus-sign-nikita").toggleClass("plus-sign-2");
           $("#nikita-box-1").slideToggle();  
           $("#nikita-box-2").slideToggle(); 
+        
 
         })
 
         $(".plus-sign-cristian")
         .on("click", function() {
           
+          $(".plus-sign-cristian").toggleClass("plus-sign-2");
           $("#cristian-box-1").slideToggle();  
           $("#cristian-box-2").slideToggle(); 
 
@@ -270,6 +273,7 @@
         $(".plus-sign-cruz")
         .on("click", function() {
           
+          $(".plus-sign-cruz").toggleClass("plus-sign-2");
           $("#cruz-box-1").slideToggle();  
           $("#cruz-box-2").slideToggle(); 
 
@@ -278,6 +282,7 @@
         $(".plus-sign-drake")
         .on("click", function() {
           
+          $(".plus-sign-drake").toggleClass("plus-sign-2");
           $("#drake-box-1").slideToggle();  
           $("#drake-box-2").slideToggle(); 
 
@@ -286,6 +291,7 @@
         $(".plus-sign-griffin")
         .on("click", function() {
           
+          $(".plus-sign-griffin").toggleClass("plus-sign-2");
           $("#griffin-box-1").slideToggle();  
           $("#griffin-box-2").slideToggle(); 
 
@@ -294,6 +300,7 @@
         $(".plus-sign-aden")
         .on("click", function() {
           
+          $(".plus-sign-aden").toggleClass("plus-sign-2");
           $("#aden-box-1").slideToggle();  
           $("#aden-box-2").slideToggle(); 
 
@@ -306,6 +313,21 @@
   <script>
     $(document).ready(function() {
       
+
+      $(".hamburger-navbar") 
+        $(".right-nav-button").hide();
+
+
+      $(".hamburger-navbar")
+        .on("click", function() {
+          
+          $(".right-nav-button").slideToggle();  
+        
+        })
+      });
+
+      // slide toggle for mobile navbar //
+
 
       $(window).resize(function() {
         if ($(this).width() < 650) {
@@ -330,15 +352,6 @@
   
       // 
 
-      $(".hamburger-navbar")
-        .on("click", function() {
-          
-          $(".right-nav-button").slideToggle();  
-        
-        })
-      });
-
-      // slide toggle for mobile navbar //
 
   </script>
   
