@@ -212,13 +212,15 @@
 
       $(window).resize(function() {
         if ($(this).width() < 650) {
-        $(".right-nav-bar").hide();
+        $(".hamburger-navbar").hide();
       } 
       
-      // if window width falls below 650px it will hide the nav button container //
+    
+      // if window width is above 650px it will hide the hamburger navbar//
+      
           
       else {
-     $(".right-nav-button").show();
+     $(".hamburger-navbar").show();
       }
       });
 

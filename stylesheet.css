@@ -3,6 +3,8 @@
 /* Section one styling */
 body {
     margin: 0;
+    width: 100%;
+    overflow: scroll;
 }
 
 .home-section-one {
@@ -307,8 +309,8 @@ p {
     text-align: center;
 }
 .contact-button-section-four {
-    background-color: #F67E7E;
-    color: black;
+    background-color: #004047;
+    color: white;
     font-size: 18px;
     font-family: livvic;
     font-weight:700 ;
@@ -328,8 +330,8 @@ p {
 .contact-button-section-four:hover {
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
-    color: white;
     background-color: #014E56;
+    cursor: grab;
 }
 
 footer {

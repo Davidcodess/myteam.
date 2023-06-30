@@ -135,25 +135,25 @@
 
       $(window).resize(function() {
         if ($(this).width() < 650) {
-        $(".right-nav-bar").hide();
+        $(".hamburger-navbar").hide();
       } 
       
       // 
       
-      // if window width falls below 650px it will hide the nav button container //
+      // if window width is above 650px it will hide the hamburger navbar//
       
 
       // 
+      // 
       
+      // if screen width is below 650px display hamburger navbar//
+  
       else {
-     $(".right-nav-button").show();
+     $(".hamburger-navbar").show();
       }
       });
 
-      // 
       
-      // if screen width is above 650px display nav button container //
-  
       // 
       $(".hamburger-navbar") 
         $(".right-nav-button").hide();
@@ -166,12 +166,11 @@
         })
       });
 
-      // slide toggle for mobile navbar //
+      // $("#submitbtn")
+      //   .on("click",function() {
 
-      $("#submitbtn")
-        .on("click",function() {
-          alert("Thanks for reaching out!")
-        })
+      //     alert("Thanks for reaching out!")
+      //   })
 
   </script>
 
