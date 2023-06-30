@@ -212,16 +212,15 @@
 
       $(window).resize(function() {
         if ($(this).width() < 650) {
-        $(".hamburger-navbar").hide();
+        $(".right-nav-button").hide();
       } 
-      
     
       // if window width is above 650px it will hide the hamburger navbar//
-      
-          
+         
       else {
-     $(".hamburger-navbar").show();
+     $(".right-nav-button").show();
       }
+
       });
 
       // 
@@ -229,6 +228,20 @@
       // if screen width is above 650px display nav button container //
   
       //
+      $(window).resize(function() {
+        if ($(this).width() > 650) {
+        $(".hamburger-navbar").hide();
+      } 
+    
+      // if window width is above 650px it will hide the hamburger navbar//
+         
+      else {
+     $(".hamburger-navbar").show();
+    
+      }
+
+      });
+
       $(".hamburger-navbar") 
         $(".right-nav-button").hide();
 
