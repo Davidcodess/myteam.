@@ -33,7 +33,7 @@ Users should be able to:
 
 ## My process
 
-In this project my process was to build each page individually from top starting with the < header> and < nav> down through each < section> of the page and lastly to the bottom with the < footer>. While writing the structure I ensured to assign element with specific classes or id's with the styling in mind. Starting the homepage I styled everything based on the figma document provided. This file helped immensely by giving the widths of containers and specific colors for different elements throughout the site. By styling the homepage first it made the following pages much easier and I was able to reuse some CSS classes throughout the website. In this project I created it's desktop version first and scaled down to tablet version and then the mobile version using media queries. I didnt impliment jQuery until almost all styling was complete to ensure the website looked great and the functionality works as it should without effecting the user experience.
+In this project my process was to build each page individually from top starting with the header and nav down through each section of the page and lastly to the bottom with the footer. While writing the structure I ensured to assign element with specific classes or id's with the styling in mind. Starting the homepage I styled everything based on the figma document provided. This file helped immensely by giving the widths of containers and specific colors for different elements throughout the site. By styling the homepage first it made the following pages much easier and I was able to reuse some CSS classes throughout the website. In this project I created it's desktop version first and scaled down to tablet version and then the mobile version using media queries. I didnt impliment jQuery until almost all styling was complete to ensure the website looked great and the functionality works as it should without effecting the user experience.
 
 ### Built with
 
@@ -43,7 +43,7 @@ In this project my process was to build each page individually from top starting
 
 ### What I learned
 
-This was my first larger project without instruction and it was a fun challange! I deepened my understanding of HTML by properly structuring the different sections of the website and using different semantic elements to improve accessibility. This included properly nesting elements, utalizing different elements such as < header>,< nav>,< section>,and < footer>.
+This was my first larger project without instruction and it was a fun challange! I deepened my understanding of HTML by properly structuring the different sections of the website and using different semantic elements to improve accessibility. This included properly nesting elements, utalizing different elements such as header,nav,section,and footer.
 
 Throughout this project I felt I was continously challanged with bringing the structure to life with CSS. I utilized custom styling primarialy by targeting specific classes and reusing them when possible.By utalizing a variety of CSS properties and some slight animations I quickly began to structure everything with ease. Additionally I focused prioritizing a responsive design to ensure the website looks great on different screen sizes for users. And I realized how styling would effect later development when scaled down to a smaller screen in both a positive and negative way.
 
